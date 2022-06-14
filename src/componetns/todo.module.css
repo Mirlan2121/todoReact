@@ -1,0 +1,15 @@
+.todo{
+    width:20%;
+    border: 1px solid rgb(100, 29, 29);
+    padding: 50px 50px;
+    margin:30px auto;
+    border-radius: 20px;
+}
+.todo:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.todo_block{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
